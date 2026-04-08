@@ -1,0 +1,450 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project AudioSync.xcodeproj -scheme AudioSync clean build
+
+2026-04-02 12:23:33.795 xcodebuild[88789:24651192] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00008132-001664A02685801C, name:My Mac }
+{ platform:macOS, arch:x86_64, id:00008132-001664A02685801C, name:My Mac }
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:macOS, name:Any Mac }
+{ platform:iOS Simulator, arch:arm64, id:F1A90820-0932-4F42-A50E-341939927D31, OS:26.0, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:392D51F6-E048-4275-9978-2AE0716E47E2, OS:26.0, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:3061AAE0-B23C-481D-B910-71AE89724079, OS:26.0, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:D5D546F7-DF2A-4436-8396-7BDA26CAA1A9, OS:26.0, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:D8F00E45-3015-4ABE-8B81-D4B86A3CA713, OS:26.0, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:B492AB61-4988-4B1B-A806-0B10A8C55C06, OS:26.0, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:85BCE9C4-3673-46C0-9231-E0778A423B0D, OS:26.0, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:54F3FFE3-C0F4-4682-90E8-A4A8AE04378C, OS:26.0, name:iPhone 17 }
+{ platform:iOS Simulator, arch:arm64, id:589980DC-840E-488E-8DF7-A832BDDBED6B, OS:26.0, name:iPhone 17 Pro }
+{ platform:iOS Simulator, arch:arm64, id:B4A65B29-7440-40D9-AEC2-01612E2E26FE, OS:26.0, name:iPhone 17 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:131B47DF-C8C5-4651-814B-0CCB814FD2D1, OS:26.0, name:iPhone Air }
+{ platform:iOS, arch:arm64, id:00008140-0010386A2683801C, name:Alssandro’s iphone }
+{ platform:iOS, arch:arm64, id:00008140-000223392261801C, name:Antonella’s Iphone }
+{ platform:iOS, arch:arm64, id:00008140-001505481AE9801C, name:Iphone di JulsMoon }
+{ platform:iOS, arch:arm64, id:00008140-0019682A3EE9801C, name:iPhone di Tonio }
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+** CLEAN SUCCEEDED **
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00008132-001664A02685801C, name:My Mac }
+{ platform:macOS, arch:x86_64, id:00008132-001664A02685801C, name:My Mac }
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:macOS, name:Any Mac }
+{ platform:iOS Simulator, arch:arm64, id:F1A90820-0932-4F42-A50E-341939927D31, OS:26.0, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:392D51F6-E048-4275-9978-2AE0716E47E2, OS:26.0, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:3061AAE0-B23C-481D-B910-71AE89724079, OS:26.0, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:D5D546F7-DF2A-4436-8396-7BDA26CAA1A9, OS:26.0, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:D8F00E45-3015-4ABE-8B81-D4B86A3CA713, OS:26.0, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:B492AB61-4988-4B1B-A806-0B10A8C55C06, OS:26.0, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:85BCE9C4-3673-46C0-9231-E0778A423B0D, OS:26.0, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:54F3FFE3-C0F4-4682-90E8-A4A8AE04378C, OS:26.0, name:iPhone 17 }
+{ platform:iOS Simulator, arch:arm64, id:589980DC-840E-488E-8DF7-A832BDDBED6B, OS:26.0, name:iPhone 17 Pro }
+{ platform:iOS Simulator, arch:arm64, id:B4A65B29-7440-40D9-AEC2-01612E2E26FE, OS:26.0, name:iPhone 17 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:131B47DF-C8C5-4651-814B-0CCB814FD2D1, OS:26.0, name:iPhone Air }
+{ platform:iOS, arch:arm64, id:00008140-0010386A2683801C, name:Alssandro’s iphone }
+{ platform:iOS, arch:arm64, id:00008140-000223392261801C, name:Antonella’s Iphone }
+{ platform:iOS, arch:arm64, id:00008140-001505481AE9801C, name:Iphone di JulsMoon }
+{ platform:iOS, arch:arm64, id:00008140-001209291A00401C, name:iPhone di Pierluigi }
+{ platform:iOS, arch:arm64, id:00008140-0019682A3EE9801C, name:iPhone di Tonio }
+{ platform:iOS, arch:arm64, id:00008140-000A42310203801C, name:PigiPhone }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'AudioSync' in project 'AudioSync' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 932a400e856bca08c81e5b3641230b01
+Build description path: /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/XCBuildData/932a400e856bca08c81e5b3641230b01.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.0-25A352-28806144b0707e398aac92880fa50324.sdkstatcache
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.0-25A352-28806144b0707e398aac92880fa50324.sdkstatcache
+
+CreateBuildDirectory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    builtin-create-build-directory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products
+
+CreateBuildDirectory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    builtin-create-build-directory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    builtin-create-build-directory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug
+
+CreateBuildDirectory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    builtin-create-build-directory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    builtin-create-build-directory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    builtin-create-build-directory /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync-1621576f695baaadf2dce237c43a1103-VFS/all-product-headers.yaml
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync-1621576f695baaadf2dce237c43a1103-VFS/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.hmap (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.hmap
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-project-headers.hmap (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-project-headers.hmap
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftFileList (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftFileList
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.LinkFileList (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.LinkFileList
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-OutputFileMap.json (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_const_extract_protocols.json (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftConstValuesFileList (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/Entitlements.plist (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/Entitlements.plist
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.DependencyStaticMetadataFileList (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-generated-files.hmap (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-generated-files.hmap
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-own-target-headers.hmap (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.DependencyMetadataFileList (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-target-headers.hmap (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-non-framework-target-headers.hmap (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-DebugDylibPath-normal-arm64.txt (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-DebugDylibInstallName-normal-arm64.txt (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    write-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /bin/mkdir -p /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS
+
+MkDir /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /bin/mkdir -p /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources
+
+MkDir /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /bin/mkdir -p /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents
+
+MkDir /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /bin/mkdir -p /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app
+
+ProcessProductPackaging "" /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+    Entitlements:
+    
+    {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent
+
+ProcessProductPackagingDER /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent.der (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /usr/bin/derq query -f xml -i /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent.der --raw
+
+Ld /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/__preview.dylib normal (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos26.4 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -O0 -L/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -F/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -install_name @rpath/AudioSync.debug.dylib -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_dependency_info.dat -Xlinker -no_adhoc_codesign -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/__preview.dylib
+
+MkDir /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/thinned (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /bin/mkdir -p /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/thinned
+
+MkDir /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/unthinned (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /bin/mkdir -p /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/unthinned
+
+GenerateAssetSymbols /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Assets.xcassets (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Assets.xcassets --compile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources --output-format human-readable-text --notices --warnings --export-dependency-info /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_dependencies --output-partial-info-plist /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 26.4 --platform macosx --bundle-identifier com.antimobucciero.AudioSync --generate-swift-asset-symbols /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Assets.xcassets (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Assets.xcassets --compile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 26.4 --platform macosx
+/* com.apple.actool.document.warnings */
+/Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Assets.xcassets:.: warning: The minimum deployment target is set to 26.4, but the platform only knows how to compile for macOS 26.0
+/* com.apple.actool.compilation-results */
+/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist_thinned
+/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/thinned/Assets.car
+
+
+SwiftDriver AudioSync normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AudioSync -Onone -enforce-exclusivity\=checked @/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -target arm64-apple-macos26.4 -g -module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -F /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.0-25A352-28806144b0707e398aac92880fa50324.sdkstatcache -output-file-map /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_const_extract_protocols.json -Xcc -iquote -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-generated-files.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-own-target-headers.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-target-headers.hmap -Xcc -iquote -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-project-headers.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/include -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources-normal/arm64 -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/arm64 -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-Swift.h -working-directory /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ AudioSyncManager.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/AudioSyncManager.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/AudioSyncManager.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ SyncCommand.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/SyncCommand.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/SyncCommand.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ HostView.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/HostView.swift (in target 'AudioSync' from project 'AudioSync')
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/HostView.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ InviteModalView.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/InviteModalView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/InviteModalView.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ ClientView.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/ClientView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/ClientView.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ AppBackground.swift,\ AudioSyncApp.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/AppBackground.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/AudioSyncApp.swift (in target 'AudioSync' from project 'AudioSync')
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/AppBackground.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/AudioSyncApp.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/ContentView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/ContentView.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ AudioSync (in target 'AudioSync' from project 'AudioSync')
+
+EmitSwiftModule normal arm64 (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftCompile normal arm64 Compiling\ MultipeerManager.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/MultipeerManager.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/MultipeerManager.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+/Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/MultipeerManager.swift:120:17: warning: reference to captured var 'self' in concurrently-executing code; this is an error in the Swift 6 language mode
+                self?.requestClockSync()
+                ^
+/Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/MultipeerManager.swift:294:43: warning: assigning non-Sendable parameter 'invitationHandler' to a '@Sendable' closure
+            self.pendingInvitationHandler = invitationHandler
+                                          ^
+/Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/MultipeerManager.swift:291:149: note: parameter 'invitationHandler' is implicitly non-Sendable
+    nonisolated func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
+                                                                                                                                                    ^
+                                                                                                                                                                       @Sendable 
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 Compiling\ RoomView.swift /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/RoomView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftCompile normal arm64 /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/RoomView.swift (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling SyncCommand.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Compiling InviteModalView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for AudioSync (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriver\ Compilation\ Requirements AudioSync normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AudioSync -Onone -enforce-exclusivity\=checked @/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -target arm64-apple-macos26.4 -g -module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -F /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.0-25A352-28806144b0707e398aac92880fa50324.sdkstatcache -output-file-map /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_const_extract_protocols.json -Xcc -iquote -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-generated-files.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-own-target-headers.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-target-headers.hmap -Xcc -iquote -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-project-headers.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/include -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources-normal/arm64 -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/arm64 -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-Swift.h -working-directory /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/AudioSync-Swift.h /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-Swift.h (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-swiftHeaderTool -arch arm64 /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-Swift.h -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/AudioSync-Swift.h
+
+Copy /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/arm64-apple-macos.swiftdoc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftdoc (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftdoc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/arm64-apple-macos.swiftdoc
+
+Copy /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/arm64-apple-macos.swiftmodule /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftmodule (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftmodule /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/arm64-apple-macos.swiftmodule
+
+Copy /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/arm64-apple-macos.abi.json /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.abi.json (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.abi.json /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/arm64-apple-macos.abi.json
+
+Copy /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftsourceinfo (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftsourceinfo /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling AudioSyncManager.swift (in target 'AudioSync' from project 'AudioSync')
+
+LinkAssetCatalog /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Assets.xcassets (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-linkAssetCatalog --thinned /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/thinned --thinned-dependencies /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist_unthinned --output /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources --plist-output /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources/Assets.car (in target 'AudioSync' from project 'AudioSync')
+
+ProcessInfoPlistFile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Info.plist /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Info.plist (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-infoPlistUtility /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/assetcatalog_generated_info.plist -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Info.plist
+removing value "audio" for "UIBackgroundModes" - not supported on macOS
+
+SwiftDriverJobDiscovery normal arm64 Compiling RoomView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MultipeerManager.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ClientView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Compiling HostView.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppBackground.swift, AudioSyncApp.swift (in target 'AudioSync' from project 'AudioSync')
+
+SwiftDriver\ Compilation AudioSync normal arm64 com.apple.xcode.tools.swift.compiler (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name AudioSync -Onone -enforce-exclusivity\=checked @/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -target arm64-apple-macos26.4 -g -module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -F /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.0-25A352-28806144b0707e398aac92880fa50324.sdkstatcache -output-file-map /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_const_extract_protocols.json -Xcc -iquote -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-generated-files.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-own-target-headers.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-all-target-headers.hmap -Xcc -iquote -Xcc /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-project-headers.hmap -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/include -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources-normal/arm64 -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources/arm64 -Xcc -I/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-Swift.h -working-directory /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib normal (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos26.4 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -O0 -L/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -F/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -filelist /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.LinkFileList -install_name @rpath/AudioSync.debug.dylib -Xlinker -rpath -Xlinker @executable_path/../Frameworks -Xlinker -object_path_lto -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.swiftmodule @/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-ExecutorLinkFileList-normal-arm64.txt (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    construct-stub-executor-link-file-list /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'AudioSync' from project 'AudioSync')
+
+Ld /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync normal (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos26.4 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -O0 -L/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -F/Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/../Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync-ExecutorLinkFileList-normal-arm64.txt /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync
+
+CopySwiftLibs /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-swiftStdLibTool --copy --verbose --sign B8380E3FEC56B88E59922B29E0401CD18B6459DD --scan-executable /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib --scan-folder /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Frameworks --scan-folder /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/PlugIns --scan-folder /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Library/SystemExtensions --scan-folder /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Extensions --platform macosx --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ExtractAppIntentsMetadata (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name AudioSync --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk --xcode-version 17A400 --platform-family macOS --deployment-target 26.4 --bundle-identifier com.antimobucciero.AudioSync --output /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/Resources --target-triple arm64-apple-macos26.4 --binary-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync --dependency-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync_dependency_info.dat --stringsdata-file /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftFileList --metadata-file-list /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.DependencyMetadataFileList --static-metadata-file-list /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.DependencyStaticMetadataFileList --swift-const-vals-list /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/Objects-normal/arm64/AudioSync.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-04-02 12:23:39.423 appintentsmetadataprocessor[88848:24651615] Starting appintentsmetadataprocessor export
+2026-04-02 12:23:39.424 appintentsmetadataprocessor[88848:24651615] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CodeSign /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+    Signing Identity:     "Apple Development: toniobonny2001@gmail.com (8CD9CVQ9D4)"
+    
+    /usr/bin/codesign --force --sign B8380E3FEC56B88E59922B29E0401CD18B6459DD -o runtime --timestamp\=none --generate-entitlement-der /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/AudioSync.debug.dylib
+
+CodeSign /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/__preview.dylib (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+    Signing Identity:     "Apple Development: toniobonny2001@gmail.com (8CD9CVQ9D4)"
+    
+    /usr/bin/codesign --force --sign B8380E3FEC56B88E59922B29E0401CD18B6459DD -o runtime --timestamp\=none --generate-entitlement-der /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app/Contents/MacOS/__preview.dylib
+
+CodeSign /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    
+    Signing Identity:     "Apple Development: toniobonny2001@gmail.com (8CD9CVQ9D4)"
+    
+    /usr/bin/codesign --force --sign B8380E3FEC56B88E59922B29E0401CD18B6459DD -o runtime --entitlements /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Intermediates.noindex/AudioSync.build/Debug/AudioSync.build/AudioSync.app.xcent --timestamp\=none --generate-entitlement-der /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app
+
+RegisterExecutionPolicyException /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-RegisterExecutionPolicyException /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app
+
+Validate /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    builtin-validationUtility /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app -no-validate-extension -infoplist-subpath Contents/Info.plist
+
+Touch /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /usr/bin/touch -c /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app
+
+RegisterWithLaunchServices /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app (in target 'AudioSync' from project 'AudioSync')
+    cd /Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync
+    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/antoniobonetti/Library/Developer/Xcode/DerivedData/AudioSync-ckljlujdbmztdegqabwdlxnwsnif/Build/Products/Debug/AudioSync.app
+
+/Users/antoniobonetti/Desktop/Xcode/Apps/CH6/AudioSync/AudioSync.xcodeproj: warning: The macOS deployment target 'MACOSX_DEPLOYMENT_TARGET' is set to 26.4, but the range of supported deployment target versions is 10.13 to 26.0.99. (in target 'AudioSync' from project 'AudioSync')
+** BUILD SUCCEEDED **
+
